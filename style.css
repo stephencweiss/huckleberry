@@ -30,7 +30,11 @@ body {
   border-bottom: 4px solid var(--gray-dark);
 }
 
+.intro-chunk strong {
+  color: var(--green)
+}
 .intro-chunk {
+  max-width: 400px;
   padding: 24px 16px;
   background-color: var(--gray-white);
 }
@@ -47,7 +51,7 @@ body {
 }
 
 :root {
-  --black: hsl(160deg, 100%, 30%);
+  --green: hsl(160deg, 100%, 30%);
   --gold-lighter: hsl(45deg, 100%, 50%);
   --gold-darker: hsl(45deg, 100%, 40%);
   --gray-black: hsl(0deg, 0%, 0%);
