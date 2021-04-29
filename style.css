@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -10,3 +10,50 @@ body {
 }
 
 /* Add styles here! */
+header {
+  background: var(--gray-white);
+  border-bottom: 4px solid var(--gray-dark);
+}
+body {
+  background: var(--gray-light);
+}
+
+.max-width-wrapper {
+  max-width: 550px;
+  margin: auto;
+}
+
+.card {
+  margin-top: 32px;
+  padding: 16px;
+  background-color: var(--gray-white);
+  border-bottom: 4px solid var(--gray-dark);
+}
+
+.intro-chunk {
+  padding: 24px 16px;
+  background-color: var(--gray-white);
+}
+
+.indented-heading {
+  background-color: var(--gold-lighter);
+  padding: 8px;
+  margin: 0;
+  margin-left: -32px;
+  padding-left: 32px;
+  border-bottom: 4px solid var(--gold-darker);
+  max-width: 400px;
+  display: inline-block;
+}
+
+:root {
+  --black: hsl(160deg, 100%, 30%);
+  --gold-lighter: hsl(45deg, 100%, 50%);
+  --gold-darker: hsl(45deg, 100%, 40%);
+  --gray-black: hsl(0deg, 0%, 0%);
+  --gray-very-dark: hsl(0deg, 0%, 10%);
+  --gray-dark: hsl(0deg, 0%, 30%);
+  --gray-medium: hsl(0deg, 0%, 40%);
+  --gray-light: hsl(0deg, 0%, 60%);
+  --gray-white: hsl(0deg, 0%, 100%);
+}
